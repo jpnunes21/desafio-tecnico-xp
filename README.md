@@ -96,3 +96,5 @@ Pensei na experiência do cliente, atualizar ao invés de criar um novo (quantid
 8) Fiz alguns testes unitários, não estou cobrindo tudo, ainda faltam alguns e também os testes de integração.
 
 9) Utilizei heroku para fazer o deploy da aplicação.
+
+10) Existe um arquivo DesafioXP.sql para você ter acesso a como eu criei o banco de dados. Mas para fazer o deploy da aplicação, utilizei o db4free.net, banco de dados gratuito.
