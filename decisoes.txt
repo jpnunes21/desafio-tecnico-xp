@@ -1,0 +1,17 @@
+1) Optei por user Typescript pois C# (principal stack da XP Inc.) é uma linguagem fortemente tipada.
+
+2) Decidi que a resposta do model para '/ativos/{cod-cliente}' deveria ser um array com objetos para facilitar o trabalho do front-end (um map para exibir todas as informações do cliente)
+
+3) Utilizarei query parameters porque o código fica mais fácil de entender e posso utilizar a url '/ativos/{cod-cliente}' assim como '/ativos/{cod-ativo}'
+
+4) Optei por buscar os ativos por req.params para a url nao ficar redundante
+
+5) Defini todas as rotas e depois continuei o projeto
+
+6) Decidi fazer tudo com query string, fica mais real
+
+7) Coloquei uma primary key unica (era composta) em Ordens
+
+8) Para depois: Fazer a junção dos valores que forem referentes a mesma ação (e mesmo cliente)
+
+9) Pensei na experiência do cliente, atualizar ao invés de criar um novo (quantidade de ações na ordem)
